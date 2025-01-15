@@ -25,9 +25,9 @@ Karakter itu digunakan untuk apa sih ?. Nahh karakter itu digunakan untuk menamp
 
 Nah misalnya ada sebuah paragraf yang isinya `<p>` `<p>` adalah pembuka sebuah tag, kalau `</p>` adalah penutup dari sebuah tag.`</p>`.
 kalau dituliskan langsung kan browser langsung memproses nya, maka dari itu kita membutuhkan karakter khusus agar `<p>` dan `</p>` bisa jadi sebuah text.
-- **&lt;**: digunakan untuk <
-- **&gt;**: digunakan untuk >
-- **&amp;**: digunakan untuk & 
+- **`&lt;`**: digunakan untuk <
+- **`&gt;`**: digunakan untuk >
+- **`&amp;`**: digunakan untuk & 
 
 ## Catatan Penting
 1. **Gunakan heading secara berurutan**: Sebaiknya gunakan heading sesuai urutan hierarki (dimulai dari `<h1>`).
