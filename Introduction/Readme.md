@@ -25,6 +25,14 @@ HTML terdiri dari elemen yang ditandai dengan tag pembuka dan penutup. Sebagai c
 1. Salin kode yang berada di file index.html dan simpan dalam file dengan ekstensi .html, misalnya index.html namanya terserah kalian saja ya, atau jika kalian sudah tau cara untuk clone repository ini kalian cukup lakukan clone saja secara otomatis file index.html sudah berada di komputer/laptop kalian.
 2. Buka file tersebut di browser untuk melihat hasilnya.
 
+## Referensi Tambahan
+- [Dokumentasi MDN tentang HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Dokumentasi W3School tentang HTML](https://www.w3schools.com/html/default.asp)
+
+---
+
+Happy coding! 😊
+
 
 
 

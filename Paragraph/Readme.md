@@ -31,3 +31,11 @@ File paragraph.html dalam folder ini berisi contoh-contoh berikut:
 ## Tugas pengguna
 1. Salin kode yang berada di file paragraph.html, buat file sendiri di laptop kalian serta paste kode nya.
 2. Buka hasilnya di browser.
+
+## Referensi tambahan
+- [Dokumentasi MDN tentang paragraph](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+- [Dokumentasi W3School tentang paragraph](https://www.w3schools.com/html/html_paragraphs.asp)
+
+---
+
+Happy coding! 😊
