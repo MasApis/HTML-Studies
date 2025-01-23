@@ -48,7 +48,7 @@ Contohnya ada di file blockInline.html ya
 |Perilaku                   |Memulai baris baru                     |Tidak memulai baris baru          |
 |Lebar                      |Mengambil lebar penuh kontainer        |Hanya selebar konten yang ada     |
 |Elemen yang bisa dibungkus |Bisa membungkus elemen block dan inline|Hanya bisa dibungkus elemen inline|
-|Contoh elemen              |<div>, <h1>, <ul>, <p>                 |<span>, <a>, <strong>             |
+|Contoh elemen              |`<div>`, `<h1>`, `<ul>`, `<p>`                 |`<span>`, `<a>`, `<strong>`             |
 
 
 ## Mencampus Block dan Inline
