@@ -47,14 +47,14 @@ Ada pada file index.html
 ---
 
 ## Referensi tambahan
-- [Dokumentasi MDN tentang tag <br>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
-- [Dokumentasi MDN tentang tag <hr>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
-- [Dokumentasi MDN tentang tag <sup>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
-- [Dokumentasi MDN tentang tag <sub>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
-- [Tutorial W3Schools tentang tag <br>](https://www.w3schools.com/tags/tag_br.asp)
-- [Tutorial W3Schools tentang tag <hr>](https://www.w3schools.com/tags/tag_hr.asp)
-- [Tutorial W3Schools tentang tag <sup>](https://www.w3schools.com/tags/tag_sup.asp)
-- [Tutorial W3Schools tentang tag <sub>](https://www.w3schools.com/tags/tag_sub.asp)
+- [Dokumentasi MDN tentang tag `<br>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+- [Dokumentasi MDN tentang tag `<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
+- [Dokumentasi MDN tentang tag `<sup>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
+- [Dokumentasi MDN tentang tag `<sub>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
+- [Tutorial W3Schools tentang tag `<br>`](https://www.w3schools.com/tags/tag_br.asp)
+- [Tutorial W3Schools tentang tag `<hr>`](https://www.w3schools.com/tags/tag_hr.asp)
+- [Tutorial W3Schools tentang tag `<sup>`](https://www.w3schools.com/tags/tag_sup.asp)
+- [Tutorial W3Schools tentang tag `<sub>`](https://www.w3schools.com/tags/tag_sub.asp)
 
 ---
 
