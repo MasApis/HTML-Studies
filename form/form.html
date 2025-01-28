@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <!-- 
+        Contoh Formulir Sederhana
+    -->
+    <form action="./form.html" method="post">
+        <fieldset>
+            <legend>Contoh Formulir Sederhana</legend>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea name="message" id="message" rows="4" cols="50"></textarea>
+
+            <button type="submit">Kirim</button>
+        </fieldset>
+    </form>
+
+    <br>
+
+    <!-- 
+        Studi Kasus: Formulir Registrasi Pengguna
+    -->
+    <form action="/register" method="POST">
+        <fieldset>
+            <legend>Formulir Registrasi</legend>
+    
+            <label for="username">Nama Pengguna:</label>
+            <input type="text" id="username" name="username" required>
+    
+            <label for="password">Kata Sandi:</label>
+            <input type="password" id="password" name="password" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+    
+            <label for="gender">Jenis Kelamin:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Laki-laki</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Perempuan</label>
+    
+            <label for="hobbies">Hobi:</label>
+            <input type="checkbox" id="hobby1" name="hobbies" value="Membaca">
+            <label for="hobby1">Membaca</label>
+            <input type="checkbox" id="hobby2" name="hobbies" value="Olahraga">
+            <label for="hobby2">Olahraga</label>
+    
+            <label for="country">Negara:</label>
+            <select id="country" name="country">
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="singapore">Singapura</option>
+            </select>
+    
+            <label for="photo">Unggah Foto:</label>
+            <input type="file" id="photo" name="photo">
+    
+            <button type="submit">Daftar</button>
+        </fieldset>
+    </form>
+    
+    <br>
+
+    <!-- 
+        Formulis registrasi dibawah sama seperti yang di atas,
+        namun yang di bawah ini menggunakan elemen table supaya tata letak form nya rapi.
+    -->
+
+    <form action="/register" method="POST">
+        <fieldset>
+            <legend>Formulir Registrasi</legend>
+            
+            <table border="0" cellpadding="4">
+                <tr>
+                    <th><label for="username">Nama Pengguna:</label></th>
+                    <td><input type="text" id="username" name="username" required></td>
+                </tr>
+                <tr>
+                    <th><label for="password">Kata Sandi:</label></th>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email:</label></th>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <th rowspan="2"><label for="gender">Jenis Kelamin:</label></th>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Laki-laki</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="2"><label for="hobbies">Hobi:</label></th>
+                    <td>
+                        <input type="checkbox" id="hobby1" name="hobbies" value="Membaca">
+                        <label for="hobby1">Membaca</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="hobby2" name="hobbies" value="Olahraga">
+                        <label for="hobby2">Olahraga</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="country">Negara:</label></th>
+                    <td>
+                        <select id="country" name="country">
+                            <option value="indonesia">Indonesia</option>
+                            <option value="malaysia">Malaysia</option>
+                            <option value="singapore">Singapura</option>
+                        </select>	
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="photo">Unggah Foto:</label></th>
+                    <td><input type="file" id="photo" name="photo"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><button type="submit">Daftar</button></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>
